@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "main": "Gruntfile.js",
   "author": "R Sakai",
+  "scripts": {
+    "i18n": "grunt i18n",
+    "makepot": "grunt makepot"
+  },
   "devDependencies": {
     "grunt": "~1.0.4",
     "grunt-wp-i18n": "~1.0.3",

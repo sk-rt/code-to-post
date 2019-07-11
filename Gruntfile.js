@@ -7,17 +7,7 @@ module.exports = function( grunt ) {
 
 		pkg: grunt.file.readJSON( 'package.json' ),
 
-		addtextdomain: {
-			options: {
-				textdomain: 'code-to-post',
-			},
-			update_all_domains: {
-				options: {
-					updateDomains: true
-				},
-				src: [ '*.php', '**/*.php', '!\.git/**/*', '!bin/**/*', '!node_modules/**/*', '!tests/**/*' ]
-			}
-		},
+
 
 		wp_readme_to_markdown: {
 			your_target: {
@@ -48,7 +38,7 @@ module.exports = function( grunt ) {
 	grunt.loadNpmTasks( 'grunt-wp-i18n' );
 	grunt.loadNpmTasks( 'grunt-wp-readme-to-markdown' );
 	grunt.registerTask( 'default', [ 'i18n','readme' ] );
-	grunt.registerTask( 'i18n', ['addtextdomain', 'makepot'] );
+	grunt.registerTask( 'i18n', ['makepot'] );
 	grunt.registerTask( 'readme', ['wp_readme_to_markdown'] );
 
 	grunt.util.linefeed = '\n';
