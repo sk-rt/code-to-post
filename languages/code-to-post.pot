@@ -1,0 +1,85 @@
+# Copyright (C) 2019 Ryuta Sakai
+# This file is distributed under the same license as the Code To Post package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Code To Post 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/code-to-post\n"
+"POT-Creation-Date: 2019-07-11 07:02:47+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: code-to-post.php:71
+msgid "Config"
+msgstr ""
+
+#: code-to-post.php:75
+msgid "Path:"
+msgstr ""
+
+#: code-to-post.php:79
+msgid "Save Config"
+msgstr ""
+
+#: code-to-post.php:84
+msgid "Run Update"
+msgstr ""
+
+#: code-to-post.php:87
+msgid "Update to Post"
+msgstr ""
+
+#: code-to-post.php:103
+msgid "設定の保存が完了しました。"
+msgstr ""
+
+#: code-to-post.php:172
+msgid "Updated"
+msgstr ""
+
+#: code-to-post.php:172
+msgid "New Posted"
+msgstr ""
+
+#: code-to-post.php:183
+msgid "Edit"
+msgstr ""
+
+#: code-to-post.php:183
+msgid "View"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Code To Post"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "''"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Import static Html to post content"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ryuta Sakai"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/sk-rt"
+msgstr ""
