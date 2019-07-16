@@ -1,7 +1,6 @@
 <?php
 /**
  * Plugin Name:     Code To Post
- * Plugin URI:      ''
  * Description:     Import static Html to post content
  * Author:          Ryuta Sakai
  * Author URI:      https://github.com/sk-rt/code-to-post
@@ -80,7 +79,7 @@ class CodeToPost
 			</div>
 			<hr>
 			<div class="ctp__block">
-				<h2><?php _e("Run Update", self::TEXT_DOMAIN)?></h2>
+				<h2><?php _e("Run", self::TEXT_DOMAIN)?></h2>
 				<form action="" method='post' id="run">
 				<?php wp_nonce_field(self::CREDENTIAL_RUN_ACTION, self::CREDENTIAL_RUN)?>
 				<p><input type='submit' value='<?php _e("Update to Post", self::TEXT_DOMAIN)?>' class='button button-primary button-large'></p>
@@ -100,7 +99,7 @@ class CodeToPost
 
                 $path = isset($_POST[self::DB_SLUG_PATH]) ? $_POST[self::DB_SLUG_PATH] : "";
                 update_option(self::DB_PREFIX . self::DB_SLUG_PATH, $path);
-                $completed_text = __("Update configuration", self::TEXT_DOMAIN);
+                $completed_text = __("Updated configuration", self::TEXT_DOMAIN);
                 set_transient(self::TRANSIENT_KEY_COMPLETE, $completed_text, 5);
             }
         }
