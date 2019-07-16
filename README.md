@@ -13,10 +13,10 @@ Code To Post - WordPress Plugin
 
 ## Screenshot
 
-![config](screenshots/screenshot01.png)
+![config](assets/screenshot01.png)
 
 
-![Update](screenshots/screenshot02.png)
+![Update](assets/screenshot02.png)
 
 
 ## Directory Example

@@ -5,7 +5,8 @@
   "author": "R Sakai",
   "scripts": {
     "i18n": "grunt i18n",
-    "makepot": "grunt makepot"
+    "readme": "grunt readme"
+
   },
   "devDependencies": {
     "grunt": "~1.0.4",
