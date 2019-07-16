@@ -6,9 +6,10 @@ Code To Post - WordPress Plugin
 
 - HTMLファイルから postの作成/更新
 - 固定ページ・カスタムポスト対応
-- ディレクトリ名を Post typeとして読み込み
-- ファイル名を Post name (Slug)として読み込み
+- ディレクトリ名を post typeとして読み込み
+- ファイル名を post name (Slug)として読み込み
 - アップデートするのは `post_content`のみ
+- 階層構造をもつpostは親slugのディレクトリに
 
 ## Screenshot
 
@@ -21,16 +22,18 @@ Code To Post - WordPress Plugin
 ## Directory Example
 ```
 my-posts-dir
-　　┣ post
-　　┃　┣ hello.html
-　　┃　┗ any-slug.html
-　　┃
-　　┣ page
-　　┃　┣ about.html
-　　┃　┗ searvice.html
-　　┃
-　　┗ my-custom-post
-　　 　┣ post-01.html
- 　　　┗ post-02.html
-　
+    ├── post
+    │  ├── hello.html
+    │  └── any-slug.html
+    │
+    ├── page
+    │  ├── about.html
+    │  ├── searvice.html
+    │  └── searvice
+    │        ├── searvice-child-01.html
+    │        └── searvice-child-02.html
+    │
+    └── my-custom-post
+        ├── custom-post-01.html
+        └── custom-post-02.html
 ```
