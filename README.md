@@ -4,6 +4,8 @@ Code To Post - WordPress Plugin
 
 ---
 
+ https://wordpress.org/plugins/code-to-post/
+
 - HTMLファイルから postの作成/更新
 - 固定ページ・カスタムポスト対応
 - ディレクトリ名を post typeとして読み込み
@@ -13,10 +15,9 @@ Code To Post - WordPress Plugin
 
 ## Screenshot
 
-![config](assets/screenshot01.png)
+![config](assets/screenshot-1.png)
 
-
-![Update](assets/screenshot02.png)
+![Update](assets/screenshot-2.png)
 
 
 ## Directory Example

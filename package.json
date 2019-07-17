@@ -1,16 +1,19 @@
 {
   "name": "code-to-post",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "Gruntfile.js",
   "author": "R Sakai",
+  "license": "GPLv2",
   "scripts": {
     "i18n": "grunt i18n",
-    "readme": "grunt readme"
-
+    "readme": "grunt readme",
+    "dist:svn": "node dist.js"
   },
   "devDependencies": {
+    "cpx": "^1.5.0",
     "grunt": "~1.0.4",
     "grunt-wp-i18n": "~1.0.3",
     "grunt-wp-readme-to-markdown": "~2.0.1"
-  }
+  },
+  "dependencies": {}
 }

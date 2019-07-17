@@ -4,7 +4,7 @@ Tags: post, develop
 Requires at least: 5.0
 Tested up to: 5.0.3
 Requires PHP: 7.0
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 
 Import static Html to post content
@@ -13,12 +13,29 @@ Import static Html to post content
 
  ⚠️ This plugin in development
 
+This plugin update or make post from static html files.
+It's useful for development.
+
+##  Example tree
+```
+my-posts-dir
+    ├── post
+    │  ├── hello.html
+    │  └── any-slug.html
+    │
+    ├── page
+    │  ├── about.html
+    │  ├── searvice.html
+    │  └── searvice
+    │        ├── searvice-child-01.html
+    │        └── searvice-child-02.html
+    │
+    └── my-custom-post
+        ├── custom-post-01.html
+        └── custom-post-02.html
+```
 
 == Installation ==
-
-This section describes how to install the plugin and get it working.
-
-e.g.
 
 1. Upload `code-to-post` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
@@ -26,11 +43,15 @@ e.g.
 
 == Screenshots ==
 
-* assets/screenshot01.png
-* assets/screenshot02.png
+* congiguration
+* updating
 
 
 == Changelog ==
+
+= 0.1.1-BETA =
+* In development
+* update readme
 
 = 0.1.0-BETA =
 * In development

@@ -6,7 +6,7 @@
  * Author URI:      https://github.com/sk-rt/code-to-post
  * Text Domain:     code-to-post
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         0.1.1
  *
  * @package         CodeToPost
  */
@@ -14,7 +14,7 @@ add_action('init', 'CodeToPost::init');
 
 class CodeToPost
 {
-    const VERSION = '0.1.0';
+    const VERSION = '0.1.1';
     const PLUGIN_ID = 'code-to-post';
     const TEXT_DOMAIN = self::PLUGIN_ID;
     const MAIN_MENU_SLUG = self::PLUGIN_ID;
