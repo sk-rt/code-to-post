@@ -153,7 +153,8 @@ class CodeToPost
         $arg = array(
             'name' => $slug,
             'post_type' => $post_type,
-            'posts_per_page' => 1,
+			'posts_per_page' => 1,
+			'post_status' => 'any',
         );
         return get_posts($arg);
     }
