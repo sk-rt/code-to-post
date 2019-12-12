@@ -33,6 +33,7 @@ class CodeToPost
     private function __construct()
     {
         if (is_admin() && is_user_logged_in()) {
+            load_plugin_textdomain(self::TEXT_DOMAIN, false, basename( dirname( __FILE__ ) ).'/languages' );
             // メニュー追加
             add_action('admin_menu', [$this, 'set_plugin_menu']);
             add_action('admin_init', [$this, 'save_config']);
