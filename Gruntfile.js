@@ -21,6 +21,7 @@ module.exports = function( grunt ) {
 			target: {
 				options: {
 					domainPath: '/languages',
+					textdomain: 'code-to-post',
 					exclude: [ '\.git/*', 'bin/*', 'node_modules/*', 'tests/*' ],
 					mainFile: 'code-to-post.php',
 					potFilename: 'code-to-post.pot',

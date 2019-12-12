@@ -1,26 +1,22 @@
-Code To Post - WordPress Plugin
-====
-## ⚠️ This plugin in development
+# Code To Post #
+**Contributors:** [ryutasakai](https://profiles.wordpress.org/ryutasakai)  
+**Tags:** post, develop  
+**Requires at least:** 5.0  
+**Tested up to:** 5.0.3  
+**Requires PHP:** 7.0  
+**Stable tag:** 0.1.1  
+**License:** GPLv2 or later  
 
----
+Import static Html to post content
 
- https://wordpress.org/plugins/code-to-post/
+## Description ##
 
-- HTMLファイルから postの作成/更新
-- 固定ページ・カスタムポスト対応
-- ディレクトリ名を post typeとして読み込み
-- ファイル名を post name (Slug)として読み込み
-- アップデートするのは `post_content`のみ
-- 階層構造をもつpostは親slugのディレクトリに
+ ⚠️ This plugin in development
 
-## Screenshot
+This plugin update or make post from static html files.
+It's useful for development.
 
-![config](assets/screenshot-1.png)
-
-![Update](assets/screenshot-2.png)
-
-
-## Directory Example
+##  Example tree
 ```
 my-posts-dir
     ├── post
@@ -38,3 +34,25 @@ my-posts-dir
         ├── custom-post-01.html
         └── custom-post-02.html
 ```
+
+## Installation ##
+
+1. Upload `code-to-post` to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Update congiguration through 'Code to Post' menu in WordPress
+
+## Screenshots ##
+
+* congiguration
+* updating
+
+
+## Changelog ##
+
+### 0.1.1-BETA ###
+* In development
+* update readme
+
+### 0.1.0-BETA ###
+* In development
+

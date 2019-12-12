@@ -6,6 +6,7 @@
   "license": "GPLv2",
   "scripts": {
     "i18n": "grunt i18n",
+    "i18n:generate": "sh ./scripts/generate-mo.sh",
     "readme": "grunt readme",
     "dist:svn": "node dist.js"
   },
